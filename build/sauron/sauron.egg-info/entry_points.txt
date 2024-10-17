@@ -1,0 +1,5 @@
+[console_scripts]
+listener = sauron.listener:main
+talker1 = sauron.talker1:main
+talker2 = sauron.talker2:main
+
