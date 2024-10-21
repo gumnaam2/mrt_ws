@@ -1,0 +1,42 @@
+[0.497s] Invoking command in '/home/siddhant/mrt_ws/build/custommsgsrv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/siddhant/mrt_ws/src/custommsgsrv -DCMAKE_INSTALL_PREFIX=/home/siddhant/mrt_ws/install/custommsgsrv
+[0.739s] -- The C compiler identification is GNU 11.4.0
+[0.928s] -- The CXX compiler identification is GNU 11.4.0
+[0.951s] -- Detecting C compiler ABI info
+[1.157s] -- Detecting C compiler ABI info - done
+[1.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.180s] -- Detecting C compile features
+[1.182s] -- Detecting C compile features - done
+[1.191s] -- Detecting CXX compiler ABI info
+[1.448s] -- Detecting CXX compiler ABI info - done
+[1.467s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.468s] -- Detecting CXX compile features
+[1.469s] -- Detecting CXX compile features - done
+[1.489s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.981s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.260s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.524s] -- Added test 'lint_cmake' to check CMake code style
+[2.537s] -- Added test 'xmllint' to check XML markup files
+[2.541s] -- Configuring done
+[2.547s] -- Generating done
+[2.549s] -- Build files have been written to: /home/siddhant/mrt_ws/build/custommsgsrv
+[2.588s] Invoked command in '/home/siddhant/mrt_ws/build/custommsgsrv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/siddhant/mrt_ws/src/custommsgsrv -DCMAKE_INSTALL_PREFIX=/home/siddhant/mrt_ws/install/custommsgsrv
+[2.592s] Invoking command in '/home/siddhant/mrt_ws/build/custommsgsrv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/siddhant/mrt_ws/build/custommsgsrv -- -j4 -l4
+[2.700s] Invoked command in '/home/siddhant/mrt_ws/build/custommsgsrv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/siddhant/mrt_ws/build/custommsgsrv -- -j4 -l4
+[2.774s] Invoking command in '/home/siddhant/mrt_ws/build/custommsgsrv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/siddhant/mrt_ws/build/custommsgsrv
+[2.788s] -- Install configuration: ""
+[2.789s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/ament_index/resource_index/package_run_dependencies/custommsgsrv
+[2.789s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/ament_index/resource_index/parent_prefix_path/custommsgsrv
+[2.790s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/ament_prefix_path.sh
+[2.790s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/ament_prefix_path.dsv
+[2.791s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/path.sh
+[2.791s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/path.dsv
+[2.791s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/local_setup.bash
+[2.792s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/local_setup.sh
+[2.792s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/local_setup.zsh
+[2.792s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/local_setup.dsv
+[2.793s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/package.dsv
+[2.793s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/ament_index/resource_index/packages/custommsgsrv
+[2.794s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrvConfig.cmake
+[2.794s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrvConfig-version.cmake
+[2.794s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/package.xml
+[2.798s] Invoked command in '/home/siddhant/mrt_ws/build/custommsgsrv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/siddhant/mrt_ws/build/custommsgsrv

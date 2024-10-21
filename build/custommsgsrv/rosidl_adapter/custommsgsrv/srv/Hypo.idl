@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custommsgsrv/srv/Hypo.srv
+// generated code does not contain a copyright notice
+
+
+module custommsgsrv {
+  module srv {
+    struct Hypo_Request {
+      double a;
+
+      double b;
+    };
+    struct Hypo_Response {
+      double c;
+    };
+  };
+};

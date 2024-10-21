@@ -1,0 +1,2 @@
+Invoking command in '/home/siddhant/mrt_ws/build/custommsgsrv': /usr/bin/cmake --build /home/siddhant/mrt_ws/build/custommsgsrv -- -j4 -l4
+Invoked command in '/home/siddhant/mrt_ws/build/custommsgsrv' returned '2': /usr/bin/cmake --build /home/siddhant/mrt_ws/build/custommsgsrv -- -j4 -l4

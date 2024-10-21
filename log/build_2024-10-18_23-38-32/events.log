@@ -1,0 +1,302 @@
+[0.000000] (-) TimerEvent: {}
+[0.001856] (custommsgsrv) JobQueued: {'identifier': 'custommsgsrv', 'dependencies': OrderedDict()}
+[0.002014] (sauron) JobQueued: {'identifier': 'sauron', 'dependencies': OrderedDict()}
+[0.002087] (arucoasmt) JobQueued: {'identifier': 'arucoasmt', 'dependencies': OrderedDict([('custommsgsrv', '/home/siddhant/mrt_ws/install/custommsgsrv')])}
+[0.002158] (custommsgsrv) JobStarted: {'identifier': 'custommsgsrv'}
+[0.013803] (sauron) JobStarted: {'identifier': 'sauron'}
+[0.033187] (custommsgsrv) JobProgress: {'identifier': 'custommsgsrv', 'progress': 'cmake'}
+[0.034826] (custommsgsrv) JobProgress: {'identifier': 'custommsgsrv', 'progress': 'build'}
+[0.036313] (custommsgsrv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/siddhant/mrt_ws/build/custommsgsrv', '--', '-j4', '-l4'], 'cwd': '/home/siddhant/mrt_ws/build/custommsgsrv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'siddhant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/siddhant/mrt_ws/install/custommsgsrv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/siddhant'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a93a6cfd3f9960f0ca41506b6712613d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/siddhant/mrt_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'siddhant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'siddhant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sidlap:@/tmp/.ICE-unix/1376,unix/sidlap:/tmp/.ICE-unix/1376'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cbd0a938_07d8_4ca4_a726_eb87cbfc8f4c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQ61V2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/custommsgsrv:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/siddhant/mrt_ws/build/custommsgsrv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a93a6cfd3f9960f0ca41506b6712613d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages:/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages:/home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/siddhant/mrt_ws/install/custommsgsrv:/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble')]), 'shell': False}
+[0.099466] (-) TimerEvent: {}
+[0.200975] (-) TimerEvent: {}
+[0.270852] (custommsgsrv) StdoutLine: {'line': b'[  2%] Built target custommsgsrv__cpp\n'}
+[0.276673] (custommsgsrv) StdoutLine: {'line': b'[ 12%] Built target custommsgsrv__rosidl_generator_c\n'}
+[0.303841] (custommsgsrv) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_custommsgsrv\n'}
+[0.304729] (-) TimerEvent: {}
+[0.379646] (custommsgsrv) StdoutLine: {'line': b'[ 23%] Built target custommsgsrv__rosidl_typesupport_cpp\n'}
+[0.382662] (custommsgsrv) StdoutLine: {'line': b'[ 34%] Built target custommsgsrv__rosidl_typesupport_introspection_cpp\n'}
+[0.392381] (custommsgsrv) StdoutLine: {'line': b'[ 44%] Built target custommsgsrv__rosidl_typesupport_fastrtps_cpp\n'}
+[0.406589] (-) TimerEvent: {}
+[0.410731] (custommsgsrv) StdoutLine: {'line': b'[ 55%] Built target custommsgsrv__rosidl_typesupport_fastrtps_c\n'}
+[0.458885] (custommsgsrv) StdoutLine: {'line': b'[ 65%] Built target custommsgsrv__rosidl_typesupport_introspection_c\n'}
+[0.478464] (custommsgsrv) StdoutLine: {'line': b'[ 76%] Built target custommsgsrv__rosidl_typesupport_c\n'}
+[0.506771] (-) TimerEvent: {}
+[0.547679] (custommsgsrv) StdoutLine: {'line': b'[ 76%] Built target custommsgsrv\n'}
+[0.607572] (-) TimerEvent: {}
+[0.610852] (custommsgsrv) StdoutLine: {'line': b'[ 78%] Built target custommsgsrv__py\n'}
+[0.694736] (custommsgsrv) StdoutLine: {'line': b'[ 87%] Built target custommsgsrv__rosidl_generator_py\n'}
+[0.708540] (-) TimerEvent: {}
+[0.785745] (custommsgsrv) StdoutLine: {'line': b'[ 91%] Built target custommsgsrv__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.796621] (custommsgsrv) StdoutLine: {'line': b'[ 95%] Built target custommsgsrv__rosidl_typesupport_introspection_c__pyext\n'}
+[0.809790] (-) TimerEvent: {}
+[0.810600] (custommsgsrv) StdoutLine: {'line': b'[100%] Built target custommsgsrv__rosidl_typesupport_c__pyext\n'}
+[0.909987] (-) TimerEvent: {}
+[1.010665] (-) TimerEvent: {}
+[1.024973] (custommsgsrv) StdoutLine: {'line': b'running egg_info\n'}
+[1.026903] (custommsgsrv) StdoutLine: {'line': b'writing custommsgsrv.egg-info/PKG-INFO\n'}
+[1.027485] (custommsgsrv) StdoutLine: {'line': b'writing dependency_links to custommsgsrv.egg-info/dependency_links.txt\n'}
+[1.027835] (custommsgsrv) StdoutLine: {'line': b'writing top-level names to custommsgsrv.egg-info/top_level.txt\n'}
+[1.033079] (custommsgsrv) StdoutLine: {'line': b"reading manifest file 'custommsgsrv.egg-info/SOURCES.txt'\n"}
+[1.034432] (custommsgsrv) StdoutLine: {'line': b"writing manifest file 'custommsgsrv.egg-info/SOURCES.txt'\n"}
+[1.110839] (-) TimerEvent: {}
+[1.121258] (custommsgsrv) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_custommsgsrv_egg\n'}
+[1.155701] (custommsgsrv) CommandEnded: {'returncode': 0}
+[1.211019] (-) TimerEvent: {}
+[1.312010] (-) TimerEvent: {}
+[1.390116] (custommsgsrv) JobProgress: {'identifier': 'custommsgsrv', 'progress': 'install'}
+[1.411800] (custommsgsrv) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/siddhant/mrt_ws/build/custommsgsrv'], 'cwd': '/home/siddhant/mrt_ws/build/custommsgsrv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'siddhant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/siddhant/mrt_ws/install/custommsgsrv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/siddhant'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a93a6cfd3f9960f0ca41506b6712613d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/siddhant/mrt_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'siddhant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'siddhant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sidlap:@/tmp/.ICE-unix/1376,unix/sidlap:/tmp/.ICE-unix/1376'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cbd0a938_07d8_4ca4_a726_eb87cbfc8f4c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQ61V2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/custommsgsrv:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/siddhant/mrt_ws/build/custommsgsrv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a93a6cfd3f9960f0ca41506b6712613d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages:/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages:/home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/siddhant/mrt_ws/install/custommsgsrv:/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble')]), 'shell': False}
+[1.414059] (-) TimerEvent: {}
+[1.429647] (custommsgsrv) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.430148] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/ament_index/resource_index/rosidl_interfaces/custommsgsrv\n'}
+[1.430537] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv\n'}
+[1.430969] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv\n'}
+[1.431391] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail\n'}
+[1.431686] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__functions.c\n'}
+[1.431955] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__struct.h\n'}
+[1.432144] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__type_support.h\n'}
+[1.432306] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__functions.h\n'}
+[1.432587] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/hypo.h\n'}
+[1.432754] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg\n'}
+[1.432925] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.433159] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/num.h\n'}
+[1.433326] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail\n'}
+[1.433525] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__type_support.h\n'}
+[1.433695] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__type_support.h\n'}
+[1.433893] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__struct.h\n'}
+[1.434062] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__functions.h\n'}
+[1.434217] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__struct.h\n'}
+[1.434472] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__functions.h\n'}
+[1.434792] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__functions.c\n'}
+[1.435155] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__functions.c\n'}
+[1.435636] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/sphere.h\n'}
+[1.436073] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/library_path.sh\n'}
+[1.436465] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/library_path.dsv\n'}
+[1.436955] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_generator_c.so\n'}
+[1.437335] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv\n'}
+[1.437676] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv\n'}
+[1.437839] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail\n'}
+[1.438109] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__rosidl_typesupport_fastrtps_c.h\n'}
+[1.438275] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg\n'}
+[1.438497] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail\n'}
+[1.438875] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[1.439247] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[1.439642] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.439817] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_fastrtps_c.so\n'}
+[1.439974] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv\n'}
+[1.440203] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv\n'}
+[1.440364] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/hypo.hpp\n'}
+[1.440566] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail\n'}
+[1.440735] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__traits.hpp\n'}
+[1.441065] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__struct.hpp\n'}
+[1.441247] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__builder.hpp\n'}
+[1.443056] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg\n'}
+[1.443400] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/sphere.hpp\n'}
+[1.443583] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail\n'}
+[1.443783] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__struct.hpp\n'}
+[1.443961] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__builder.hpp\n'}
+[1.444123] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__traits.hpp\n'}
+[1.444284] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__traits.hpp\n'}
+[1.449315] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__builder.hpp\n'}
+[1.449655] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__struct.hpp\n'}
+[1.449841] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/num.hpp\n'}
+[1.450006] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv\n'}
+[1.450175] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv\n'}
+[1.450338] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail\n'}
+[1.450634] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.450805] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/dds_fastrtps\n'}
+[1.450968] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg\n'}
+[1.451131] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail\n'}
+[1.451292] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.451528] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/dds_fastrtps\n'}
+[1.451714] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.451985] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.452168] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.452330] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv\n'}
+[1.452554] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv\n'}
+[1.452712] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail\n'}
+[1.452863] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__rosidl_typesupport_introspection_c.h\n'}
+[1.453018] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__type_support.c\n'}
+[1.453204] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg\n'}
+[1.453358] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail\n'}
+[1.453554] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[1.453715] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[1.453880] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__type_support.c\n'}
+[1.454045] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__type_support.c\n'}
+[1.454209] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.454392] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_introspection_c.so\n'}
+[1.454595] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_c.so\n'}
+[1.454774] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv\n'}
+[1.454951] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv\n'}
+[1.455122] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail\n'}
+[1.455316] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.455568] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__type_support.cpp\n'}
+[1.455768] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg\n'}
+[1.455943] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail\n'}
+[1.456115] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.456290] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.456545] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__type_support.cpp\n'}
+[1.456782] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__type_support.cpp\n'}
+[1.457007] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_introspection_cpp.so\n'}
+[1.457216] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_cpp.so\n'}
+[1.457426] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/pythonpath.sh\n'}
+[1.457665] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/pythonpath.dsv\n'}
+[1.457828] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv-0.0.0-py3.10.egg-info\n'}
+[1.458001] (custommsgsrv) StdoutLine: {'line': b'-- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.458164] (custommsgsrv) StdoutLine: {'line': b'-- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.458392] (custommsgsrv) StdoutLine: {'line': b'-- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.458585] (custommsgsrv) StdoutLine: {'line': b'-- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.458754] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv\n'}
+[1.458923] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/srv\n'}
+[1.459125] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/srv/_hypo.py\n'}
+[1.459348] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/srv/__init__.py\n'}
+[1.459609] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/srv/_hypo_s.c\n'}
+[1.459784] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/custommsgsrv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.459956] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/__init__.py\n'}
+[1.460124] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/custommsgsrv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.460295] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/_custommsgsrv_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.460534] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/custommsgsrv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.460712] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/_custommsgsrv_s.ep.rosidl_typesupport_c.c\n'}
+[1.460883] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/libcustommsgsrv__rosidl_generator_py.so\n'}
+[1.461073] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/_custommsgsrv_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.461247] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg\n'}
+[1.461425] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg/_num.py\n'}
+[1.461612] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg/_sphere_s.c\n'}
+[1.461802] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg/__init__.py\n'}
+[1.461977] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg/_num_s.c\n'}
+[1.462154] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg/_sphere.py\n'}
+[1.514271] (-) TimerEvent: {}
+[1.517562] (custommsgsrv) StdoutLine: {'line': b"Listing '/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv'...\n"}
+[1.518036] (custommsgsrv) StdoutLine: {'line': b"Listing '/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg'...\n"}
+[1.518463] (custommsgsrv) StdoutLine: {'line': b"Listing '/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/srv'...\n"}
+[1.528537] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/custommsgsrv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.529095] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/custommsgsrv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.529823] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/custommsgsrv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.530522] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_generator_py.so\n'}
+[1.531021] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/msg/Num.idl\n'}
+[1.531307] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/msg/Sphere.idl\n'}
+[1.531717] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/srv/Hypo.idl\n'}
+[1.532050] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/msg/Num.msg\n'}
+[1.532276] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/msg/Sphere.msg\n'}
+[1.532709] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/srv/Hypo.srv\n'}
+[1.533061] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/srv/Hypo_Request.msg\n'}
+[1.533300] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/srv/Hypo_Response.msg\n'}
+[1.533629] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/ament_index/resource_index/package_run_dependencies/custommsgsrv\n'}
+[1.533805] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/ament_index/resource_index/parent_prefix_path/custommsgsrv\n'}
+[1.533974] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/ament_prefix_path.sh\n'}
+[1.534143] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/ament_prefix_path.dsv\n'}
+[1.534478] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/path.sh\n'}
+[1.534863] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/path.dsv\n'}
+[1.535260] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/local_setup.bash\n'}
+[1.535573] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/local_setup.sh\n'}
+[1.535913] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/local_setup.zsh\n'}
+[1.536097] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/local_setup.dsv\n'}
+[1.536489] (custommsgsrv) StdoutLine: {'line': b'-- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/package.dsv\n'}
+[1.536893] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/ament_index/resource_index/packages/custommsgsrv\n'}
+[1.537101] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_generator_cExport.cmake\n'}
+[1.537293] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.537513] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.537692] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.537865] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_generator_cppExport.cmake\n'}
+[1.538041] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.538212] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.538472] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrv__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.539095] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrv__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.539536] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrv__rosidl_typesupport_cExport.cmake\n'}
+[1.539820] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrv__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.540048] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrv__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.540224] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrv__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.540438] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrv__rosidl_typesupport_cppExport.cmake\n'}
+[1.540626] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrv__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.540812] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_generator_pyExport.cmake\n'}
+[1.541031] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.541220] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/rosidl_cmake-extras.cmake\n'}
+[1.541420] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.541639] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.541817] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.542003] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.542181] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.542347] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.542555] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrvConfig.cmake\n'}
+[1.542741] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrvConfig-version.cmake\n'}
+[1.542928] (custommsgsrv) StdoutLine: {'line': b'-- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/package.xml\n'}
+[1.563538] (custommsgsrv) CommandEnded: {'returncode': 0}
+[1.615192] (-) TimerEvent: {}
+[1.697718] (sauron) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sauron', 'build', '--build-base', '/home/siddhant/mrt_ws/build/sauron/build', 'install', '--record', '/home/siddhant/mrt_ws/build/sauron/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/siddhant/mrt_ws/src/sauron', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'siddhant', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/siddhant/mrt_ws/install/custommsgsrv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/siddhant', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1376', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a93a6cfd3f9960f0ca41506b6712613d', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/siddhant/mrt_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'siddhant', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'siddhant', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sidlap:@/tmp/.ICE-unix/1376,unix/sidlap:/tmp/.ICE-unix/1376', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cbd0a938_07d8_4ca4_a726_eb87cbfc8f4c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VQ61V2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.143', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/custommsgsrv:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/siddhant/mrt_ws/build/sauron', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a93a6cfd3f9960f0ca41506b6712613d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/siddhant/mrt_ws/build/sauron/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages:/home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages:/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages:/home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/siddhant/mrt_ws/install/custommsgsrv'}, 'shell': False}
+[1.715345] (-) TimerEvent: {}
+[1.815934] (-) TimerEvent: {}
+[1.864990] (custommsgsrv) JobEnded: {'identifier': 'custommsgsrv', 'rc': 0}
+[1.866473] (arucoasmt) JobStarted: {'identifier': 'arucoasmt'}
+[1.916160] (-) TimerEvent: {}
+[2.016836] (-) TimerEvent: {}
+[2.117502] (-) TimerEvent: {}
+[2.200979] (sauron) StdoutLine: {'line': b'running egg_info\n'}
+[2.202853] (sauron) StdoutLine: {'line': b'writing ../../build/sauron/sauron.egg-info/PKG-INFO\n'}
+[2.203466] (sauron) StdoutLine: {'line': b'writing dependency_links to ../../build/sauron/sauron.egg-info/dependency_links.txt\n'}
+[2.203847] (sauron) StdoutLine: {'line': b'writing entry points to ../../build/sauron/sauron.egg-info/entry_points.txt\n'}
+[2.204143] (sauron) StdoutLine: {'line': b'writing requirements to ../../build/sauron/sauron.egg-info/requires.txt\n'}
+[2.204468] (sauron) StdoutLine: {'line': b'writing top-level names to ../../build/sauron/sauron.egg-info/top_level.txt\n'}
+[2.209100] (sauron) StdoutLine: {'line': b"reading manifest file '../../build/sauron/sauron.egg-info/SOURCES.txt'\n"}
+[2.210711] (sauron) StdoutLine: {'line': b"writing manifest file '../../build/sauron/sauron.egg-info/SOURCES.txt'\n"}
+[2.211145] (sauron) StdoutLine: {'line': b'running build\n'}
+[2.211350] (sauron) StdoutLine: {'line': b'running build_py\n'}
+[2.212017] (sauron) StdoutLine: {'line': b'running install\n'}
+[2.213568] (sauron) StdoutLine: {'line': b'running install_lib\n'}
+[2.216412] (sauron) StdoutLine: {'line': b'running install_data\n'}
+[2.217422] (sauron) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.218224] (-) TimerEvent: {}
+[2.221572] (sauron) StdoutLine: {'line': b"removing '/home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages/sauron-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.222472] (sauron) StdoutLine: {'line': b'Copying ../../build/sauron/sauron.egg-info to /home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages/sauron-0.0.0-py3.10.egg-info\n'}
+[2.224877] (sauron) StdoutLine: {'line': b'running install_scripts\n'}
+[2.272271] (sauron) StdoutLine: {'line': b'Installing listener script to /home/siddhant/mrt_ws/install/sauron/lib/sauron\n'}
+[2.273043] (sauron) StdoutLine: {'line': b'Installing talker1 script to /home/siddhant/mrt_ws/install/sauron/lib/sauron\n'}
+[2.273327] (sauron) StdoutLine: {'line': b'Installing talker2 script to /home/siddhant/mrt_ws/install/sauron/lib/sauron\n'}
+[2.273783] (sauron) StdoutLine: {'line': b"writing list of installed files to '/home/siddhant/mrt_ws/build/sauron/install.log'\n"}
+[2.318484] (-) TimerEvent: {}
+[2.419190] (-) TimerEvent: {}
+[2.440490] (sauron) CommandEnded: {'returncode': 0}
+[2.462994] (sauron) JobEnded: {'identifier': 'sauron', 'rc': 0}
+[2.519421] (-) TimerEvent: {}
+[2.620045] (-) TimerEvent: {}
+[2.720712] (-) TimerEvent: {}
+[2.821313] (-) TimerEvent: {}
+[2.922616] (-) TimerEvent: {}
+[3.023289] (-) TimerEvent: {}
+[3.107995] (arucoasmt) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arucoasmt', 'build', '--build-base', '/home/siddhant/mrt_ws/build/arucoasmt/build', 'install', '--record', '/home/siddhant/mrt_ws/build/arucoasmt/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/siddhant/mrt_ws/src/arucoasmt', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'siddhant', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/siddhant/mrt_ws/install/custommsgsrv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/siddhant', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1376', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a93a6cfd3f9960f0ca41506b6712613d', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/siddhant/mrt_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'siddhant', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'siddhant', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sidlap:@/tmp/.ICE-unix/1376,unix/sidlap:/tmp/.ICE-unix/1376', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cbd0a938_07d8_4ca4_a726_eb87cbfc8f4c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VQ61V2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.143', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/custommsgsrv:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/siddhant/mrt_ws/build/arucoasmt', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a93a6cfd3f9960f0ca41506b6712613d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/siddhant/mrt_ws/build/arucoasmt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages:/home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages:/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages:/home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/siddhant/mrt_ws/install/custommsgsrv'}, 'shell': False}
+[3.123525] (-) TimerEvent: {}
+[3.224150] (-) TimerEvent: {}
+[3.324975] (-) TimerEvent: {}
+[3.425740] (-) TimerEvent: {}
+[3.526566] (-) TimerEvent: {}
+[3.546935] (arucoasmt) StdoutLine: {'line': b'running egg_info\n'}
+[3.548465] (arucoasmt) StdoutLine: {'line': b'writing ../../build/arucoasmt/arucoasmt.egg-info/PKG-INFO\n'}
+[3.548994] (arucoasmt) StdoutLine: {'line': b'writing dependency_links to ../../build/arucoasmt/arucoasmt.egg-info/dependency_links.txt\n'}
+[3.549365] (arucoasmt) StdoutLine: {'line': b'writing entry points to ../../build/arucoasmt/arucoasmt.egg-info/entry_points.txt\n'}
+[3.549733] (arucoasmt) StdoutLine: {'line': b'writing requirements to ../../build/arucoasmt/arucoasmt.egg-info/requires.txt\n'}
+[3.550228] (arucoasmt) StdoutLine: {'line': b'writing top-level names to ../../build/arucoasmt/arucoasmt.egg-info/top_level.txt\n'}
+[3.554540] (arucoasmt) StdoutLine: {'line': b"reading manifest file '../../build/arucoasmt/arucoasmt.egg-info/SOURCES.txt'\n"}
+[3.557607] (arucoasmt) StdoutLine: {'line': b"writing manifest file '../../build/arucoasmt/arucoasmt.egg-info/SOURCES.txt'\n"}
+[3.558532] (arucoasmt) StdoutLine: {'line': b'running build\n'}
+[3.559024] (arucoasmt) StdoutLine: {'line': b'running build_py\n'}
+[3.559513] (arucoasmt) StdoutLine: {'line': b'copying arucoasmt/subtest.py -> /home/siddhant/mrt_ws/build/arucoasmt/build/lib/arucoasmt\n'}
+[3.559898] (arucoasmt) StdoutLine: {'line': b'copying arucoasmt/srvtest.py -> /home/siddhant/mrt_ws/build/arucoasmt/build/lib/arucoasmt\n'}
+[3.560538] (arucoasmt) StdoutLine: {'line': b'copying arucoasmt/clitest.py -> /home/siddhant/mrt_ws/build/arucoasmt/build/lib/arucoasmt\n'}
+[3.561640] (arucoasmt) StdoutLine: {'line': b'running install\n'}
+[3.563090] (arucoasmt) StdoutLine: {'line': b'running install_lib\n'}
+[3.564827] (arucoasmt) StdoutLine: {'line': b'copying /home/siddhant/mrt_ws/build/arucoasmt/build/lib/arucoasmt/subtest.py -> /home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages/arucoasmt\n'}
+[3.565285] (arucoasmt) StdoutLine: {'line': b'copying /home/siddhant/mrt_ws/build/arucoasmt/build/lib/arucoasmt/srvtest.py -> /home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages/arucoasmt\n'}
+[3.565683] (arucoasmt) StdoutLine: {'line': b'copying /home/siddhant/mrt_ws/build/arucoasmt/build/lib/arucoasmt/clitest.py -> /home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages/arucoasmt\n'}
+[3.567197] (arucoasmt) StdoutLine: {'line': b'byte-compiling /home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages/arucoasmt/subtest.py to subtest.cpython-310.pyc\n'}
+[3.568457] (arucoasmt) StdoutLine: {'line': b'byte-compiling /home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages/arucoasmt/srvtest.py to srvtest.cpython-310.pyc\n'}
+[3.571786] (arucoasmt) StdoutLine: {'line': b'byte-compiling /home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages/arucoasmt/clitest.py to clitest.cpython-310.pyc\n'}
+[3.572341] (arucoasmt) StdoutLine: {'line': b'running install_data\n'}
+[3.572687] (arucoasmt) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.576126] (arucoasmt) StdoutLine: {'line': b"removing '/home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages/arucoasmt-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.576991] (arucoasmt) StdoutLine: {'line': b'Copying ../../build/arucoasmt/arucoasmt.egg-info to /home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages/arucoasmt-0.0.0-py3.10.egg-info\n'}
+[3.578875] (arucoasmt) StdoutLine: {'line': b'running install_scripts\n'}
+[3.620094] (arucoasmt) StdoutLine: {'line': b'Installing pubtest script to /home/siddhant/mrt_ws/install/arucoasmt/lib/arucoasmt\n'}
+[3.620729] (arucoasmt) StdoutLine: {'line': b'Installing subtest script to /home/siddhant/mrt_ws/install/arucoasmt/lib/arucoasmt\n'}
+[3.621477] (arucoasmt) StdoutLine: {'line': b"writing list of installed files to '/home/siddhant/mrt_ws/build/arucoasmt/install.log'\n"}
+[3.626787] (-) TimerEvent: {}
+[3.693218] (arucoasmt) CommandEnded: {'returncode': 0}
+[3.706485] (arucoasmt) JobEnded: {'identifier': 'arucoasmt', 'rc': 0}
+[3.708056] (-) EventReactorShutdown: {}

@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000683] (custommsgsrv) JobQueued: {'identifier': 'custommsgsrv', 'dependencies': OrderedDict()}
+[0.000864] (sauron) JobQueued: {'identifier': 'sauron', 'dependencies': OrderedDict()}
+[0.000968] (arucoasmt) JobQueued: {'identifier': 'arucoasmt', 'dependencies': OrderedDict([('custommsgsrv', '/home/siddhant/mrt_ws/install/custommsgsrv')])}
+[0.001075] (custommsgsrv) JobStarted: {'identifier': 'custommsgsrv'}
+[0.007279] (sauron) JobStarted: {'identifier': 'sauron'}
+[0.023326] (custommsgsrv) JobProgress: {'identifier': 'custommsgsrv', 'progress': 'cmake'}
+[0.024337] (custommsgsrv) JobProgress: {'identifier': 'custommsgsrv', 'progress': 'build'}
+[0.025670] (custommsgsrv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/siddhant/mrt_ws/build/custommsgsrv', '--', '-j4', '-l4'], 'cwd': '/home/siddhant/mrt_ws/build/custommsgsrv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'siddhant'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/siddhant/mrt_ws/install/custommsgsrv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/siddhant'), ('OLDPWD', '/home/siddhant'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1578'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/siddhant/mrt_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'siddhant'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'siddhant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sidlap:@/tmp/.ICE-unix/1352,unix/sidlap:/tmp/.ICE-unix/1352'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6f01c728_de06_41b2_aaf8_ce2d43b4bebf'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AG00V2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.691'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/home/siddhant/mrt_ws/install/custommsgsrv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/siddhant/mrt_ws/build/custommsgsrv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages:/home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages:/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/siddhant/mrt_ws/install/custommsgsrv:/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble')]), 'shell': False}
+[0.098914] (-) TimerEvent: {}
+[0.199317] (-) TimerEvent: {}
+[0.300465] (-) TimerEvent: {}
+[0.401282] (-) TimerEvent: {}
+[0.492436] (custommsgsrv) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.492718] (custommsgsrv) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.492849] (custommsgsrv) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.492965] (custommsgsrv) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.493078] (custommsgsrv) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.493209] (custommsgsrv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.493325] (custommsgsrv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.493436] (custommsgsrv) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.493549] (custommsgsrv) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.501419] (-) TimerEvent: {}
+[0.601824] (-) TimerEvent: {}
+[0.702234] (-) TimerEvent: {}
+[0.802833] (-) TimerEvent: {}
+[0.903246] (-) TimerEvent: {}
+[0.942029] (custommsgsrv) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.981205] (sauron) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sauron', 'build', '--build-base', '/home/siddhant/mrt_ws/build/sauron/build', 'install', '--record', '/home/siddhant/mrt_ws/build/sauron/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/siddhant/mrt_ws/src/sauron', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'siddhant', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/siddhant/mrt_ws/install/custommsgsrv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/siddhant', 'OLDPWD': '/home/siddhant', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1578', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/siddhant/mrt_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'siddhant', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'siddhant', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sidlap:@/tmp/.ICE-unix/1352,unix/sidlap:/tmp/.ICE-unix/1352', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6f01c728_de06_41b2_aaf8_ce2d43b4bebf', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AG00V2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.691', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/home/siddhant/mrt_ws/install/custommsgsrv:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/siddhant/mrt_ws/build/sauron', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/siddhant/mrt_ws/build/sauron/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages:/home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages:/home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages:/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/siddhant/mrt_ws/install/custommsgsrv'}, 'shell': False}
+[1.003397] (-) TimerEvent: {}
+[1.103831] (-) TimerEvent: {}
+[1.204224] (-) TimerEvent: {}
+[1.304614] (-) TimerEvent: {}
+[1.317052] (sauron) StdoutLine: {'line': b'running egg_info\n'}
+[1.318171] (sauron) StdoutLine: {'line': b'writing ../../build/sauron/sauron.egg-info/PKG-INFO\n'}
+[1.318745] (sauron) StdoutLine: {'line': b'writing dependency_links to ../../build/sauron/sauron.egg-info/dependency_links.txt\n'}
+[1.319033] (sauron) StdoutLine: {'line': b'writing entry points to ../../build/sauron/sauron.egg-info/entry_points.txt\n'}
+[1.319339] (sauron) StdoutLine: {'line': b'writing requirements to ../../build/sauron/sauron.egg-info/requires.txt\n'}
+[1.319535] (sauron) StdoutLine: {'line': b'writing top-level names to ../../build/sauron/sauron.egg-info/top_level.txt\n'}
+[1.322213] (sauron) StdoutLine: {'line': b"reading manifest file '../../build/sauron/sauron.egg-info/SOURCES.txt'\n"}
+[1.323457] (sauron) StdoutLine: {'line': b"writing manifest file '../../build/sauron/sauron.egg-info/SOURCES.txt'\n"}
+[1.324104] (sauron) StdoutLine: {'line': b'running build\n'}
+[1.324300] (sauron) StdoutLine: {'line': b'running build_py\n'}
+[1.324520] (sauron) StdoutLine: {'line': b'running install\n'}
+[1.325487] (sauron) StdoutLine: {'line': b'running install_lib\n'}
+[1.327148] (sauron) StdoutLine: {'line': b'running install_data\n'}
+[1.327724] (sauron) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.330056] (sauron) StdoutLine: {'line': b"removing '/home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages/sauron-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.330743] (sauron) StdoutLine: {'line': b'Copying ../../build/sauron/sauron.egg-info to /home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages/sauron-0.0.0-py3.10.egg-info\n'}
+[1.333980] (sauron) StdoutLine: {'line': b'running install_scripts\n'}
+[1.364425] (sauron) StdoutLine: {'line': b'Installing listener script to /home/siddhant/mrt_ws/install/sauron/lib/sauron\n'}
+[1.365123] (sauron) StdoutLine: {'line': b'Installing talker1 script to /home/siddhant/mrt_ws/install/sauron/lib/sauron\n'}
+[1.365332] (sauron) StdoutLine: {'line': b'Installing talker2 script to /home/siddhant/mrt_ws/install/sauron/lib/sauron\n'}
+[1.365552] (sauron) StdoutLine: {'line': b"writing list of installed files to '/home/siddhant/mrt_ws/build/sauron/install.log'\n"}
+[1.404771] (-) TimerEvent: {}
+[1.409386] (sauron) CommandEnded: {'returncode': 0}
+[1.431024] (sauron) JobEnded: {'identifier': 'sauron', 'rc': 0}
+[1.504909] (-) TimerEvent: {}
+[1.605314] (-) TimerEvent: {}
+[1.644720] (custommsgsrv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.705450] (-) TimerEvent: {}
+[1.805910] (-) TimerEvent: {}
+[1.906450] (-) TimerEvent: {}
+[1.930161] (custommsgsrv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.974248] (custommsgsrv) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.006587] (-) TimerEvent: {}
+[2.007898] (custommsgsrv) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.008184] (custommsgsrv) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.008419] (custommsgsrv) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.093270] (custommsgsrv) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.106357] (custommsgsrv) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.106740] (-) TimerEvent: {}
+[2.108146] (custommsgsrv) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.111010] (custommsgsrv) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.188759] (custommsgsrv) StdoutLine: {'line': b'-- Generating done\n'}
+[2.195930] (custommsgsrv) StdoutLine: {'line': b'-- Build files have been written to: /home/siddhant/mrt_ws/build/custommsgsrv\n'}
+[2.206863] (-) TimerEvent: {}
+[2.244332] (custommsgsrv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_generator_c\x1b[0m\n'}
+[2.265846] (custommsgsrv) StdoutLine: {'line': b'[  1%] Built target custommsgsrv__cpp\n'}
+[2.274092] (custommsgsrv) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/custommsgsrv__rosidl_generator_c.dir/rosidl_generator_c/custommsgsrv/srv/detail/imgservice__functions.c.o\x1b[0m\n'}
+[2.280739] (custommsgsrv) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_custommsgsrv\n'}
+[2.290143] (custommsgsrv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.300744] (custommsgsrv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.307005] (-) TimerEvent: {}
+[2.312014] (custommsgsrv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.318795] (custommsgsrv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_generator_c/custommsgsrv/srv/detail/imgservice__functions.h:19\x1b[m\x1b[K,\n'}
+[2.319104] (custommsgsrv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_generator_c/custommsgsrv/srv/detail/imgservice__functions.c:4\x1b[m\x1b[K:\n'}
+[2.319265] (custommsgsrv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_generator_c/custommsgsrv/srv/detail/imgservice__struct.h:45:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcustommsgsrv/msg/detail/polygon__struct.h: No such file or directory\n'}
+[2.320929] (custommsgsrv) StderrLine: {'line': b'   45 | #include \x1b[01;31m\x1b[K"custommsgsrv/msg/detail/polygon__struct.h"\x1b[m\x1b[K\n'}
+[2.321173] (custommsgsrv) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.321315] (custommsgsrv) StderrLine: {'line': b'compilation terminated.\n'}
+[2.323597] (custommsgsrv) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/custommsgsrv__rosidl_generator_c.dir/build.make:345: CMakeFiles/custommsgsrv__rosidl_generator_c.dir/rosidl_generator_c/custommsgsrv/srv/detail/imgservice__functions.c.o] Error 1\n'}
+[2.324241] (custommsgsrv) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/custommsgsrv__rosidl_generator_c.dir/all] Error 2\n'}
+[2.324418] (custommsgsrv) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.332485] (custommsgsrv) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custommsgsrv/srv/imgservice__type_support.cpp.o\x1b[0m\n'}
+[2.347888] (custommsgsrv) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custommsgsrv/srv/detail/dds_fastrtps/imgservice__type_support.cpp.o\x1b[0m\n'}
+[2.351164] (custommsgsrv) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custommsgsrv/srv/detail/imgservice__type_support.cpp.o\x1b[0m\n'}
+[2.407149] (-) TimerEvent: {}
+[2.463267] (custommsgsrv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_typesupport_cpp/custommsgsrv/srv/imgservice__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[2.463572] (custommsgsrv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_generator_cpp/custommsgsrv/srv/detail/imgservice__struct.hpp:131:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcustommsgsrv/msg/detail/polygon__struct.hpp: No such file or directory\n'}
+[2.463799] (custommsgsrv) StderrLine: {'line': b'  131 | #include \x1b[01;31m\x1b[K"custommsgsrv/msg/detail/polygon__struct.hpp"\x1b[m\x1b[K\n'}
+[2.463995] (custommsgsrv) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.464149] (custommsgsrv) StderrLine: {'line': b'compilation terminated.\n'}
+[2.465062] (custommsgsrv) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/custommsgsrv__rosidl_typesupport_cpp.dir/build.make:266: CMakeFiles/custommsgsrv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custommsgsrv/srv/imgservice__type_support.cpp.o] Error 1\n'}
+[2.465287] (custommsgsrv) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/custommsgsrv__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[2.466777] (custommsgsrv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_typesupport_fastrtps_cpp/custommsgsrv/srv/detail/imgservice__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[2.466961] (custommsgsrv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_typesupport_fastrtps_cpp/custommsgsrv/srv/detail/dds_fastrtps/imgservice__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[2.467071] (custommsgsrv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_generator_cpp/custommsgsrv/srv/detail/imgservice__struct.hpp:131:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcustommsgsrv/msg/detail/polygon__struct.hpp: No such file or directory\n'}
+[2.467452] (custommsgsrv) StderrLine: {'line': b'  131 | #include \x1b[01;31m\x1b[K"custommsgsrv/msg/detail/polygon__struct.hpp"\x1b[m\x1b[K\n'}
+[2.467566] (custommsgsrv) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.467692] (custommsgsrv) StderrLine: {'line': b'compilation terminated.\n'}
+[2.470398] (custommsgsrv) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/custommsgsrv__rosidl_typesupport_fastrtps_cpp.dir/build.make:286: CMakeFiles/custommsgsrv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custommsgsrv/srv/detail/dds_fastrtps/imgservice__type_support.cpp.o] Error 1\n'}
+[2.471196] (custommsgsrv) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/custommsgsrv__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[2.507286] (-) TimerEvent: {}
+[2.518405] (custommsgsrv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_typesupport_introspection_cpp/custommsgsrv/srv/detail/imgservice__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[2.518682] (custommsgsrv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_generator_cpp/custommsgsrv/srv/detail/imgservice__struct.hpp:131:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcustommsgsrv/msg/detail/polygon__struct.hpp: No such file or directory\n'}
+[2.518844] (custommsgsrv) StderrLine: {'line': b'  131 | #include \x1b[01;31m\x1b[K"custommsgsrv/msg/detail/polygon__struct.hpp"\x1b[m\x1b[K\n'}
+[2.518977] (custommsgsrv) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.519191] (custommsgsrv) StderrLine: {'line': b'compilation terminated.\n'}
+[2.521179] (custommsgsrv) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/custommsgsrv__rosidl_typesupport_introspection_cpp.dir/build.make:286: CMakeFiles/custommsgsrv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custommsgsrv/srv/detail/imgservice__type_support.cpp.o] Error 1\n'}
+[2.521413] (custommsgsrv) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/custommsgsrv__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[2.521812] (custommsgsrv) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.525283] (custommsgsrv) CommandEnded: {'returncode': 2}
+[2.607397] (-) TimerEvent: {}
+[2.708904] (-) TimerEvent: {}
+[2.762344] (custommsgsrv) JobEnded: {'identifier': 'custommsgsrv', 'rc': 2}
+[2.773711] (arucoasmt) JobSkipped: {'identifier': 'arucoasmt'}
+[2.773794] (-) EventReactorShutdown: {}

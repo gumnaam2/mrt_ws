@@ -1,0 +1,263 @@
+[0.192s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.192s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f6f7a33d690>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6f7a4aeb30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6f7a4aeb30>>, mixin_verb=('build',))
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.482s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/siddhant/mrt_ws'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(Templates) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(Templates) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(Templates) by extension 'ignore_ament_install'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(Templates) by extensions ['colcon_pkg']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(Templates) by extension 'colcon_pkg'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(Templates) by extensions ['colcon_meta']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(Templates) by extension 'colcon_meta'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(Templates) by extensions ['ros']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(Templates) by extension 'ros'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(Templates) by extensions ['cmake', 'python']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(Templates) by extension 'cmake'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(Templates) by extension 'python'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(Templates) by extensions ['python_setup_py']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(Templates) by extension 'python_setup_py'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/arucoasmt) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/arucoasmt) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/arucoasmt) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/arucoasmt) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/arucoasmt) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/arucoasmt) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/arucoasmt) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/arucoasmt) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/arucoasmt) by extension 'ros'
+[0.517s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arucoasmt' with type 'ros.ament_python' and name 'arucoasmt'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/custommsgsrv) by extensions ['ignore', 'ignore_ament_install']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/custommsgsrv) by extension 'ignore'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/custommsgsrv) by extension 'ignore_ament_install'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/custommsgsrv) by extensions ['colcon_pkg']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/custommsgsrv) by extension 'colcon_pkg'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/custommsgsrv) by extensions ['colcon_meta']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/custommsgsrv) by extension 'colcon_meta'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/custommsgsrv) by extensions ['ros']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/custommsgsrv) by extension 'ros'
+[0.520s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custommsgsrv' with type 'ros.ament_cmake' and name 'custommsgsrv'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extensions ['ignore', 'ignore_ament_install']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extension 'ignore'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extension 'ignore_ament_install'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extensions ['colcon_pkg']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extension 'colcon_pkg'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extensions ['colcon_meta']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extension 'colcon_meta'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extensions ['ros']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extension 'ros'
+[0.522s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sauron' with type 'ros.ament_python' and name 'sauron'
+[0.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.592s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/siddhant/mrt_ws/install
+[0.595s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'custommsgsrv' build argument 'cmake_args' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'custommsgsrv' build argument 'cmake_target' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'custommsgsrv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'custommsgsrv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'custommsgsrv' build argument 'cmake_clean_first' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'custommsgsrv' build argument 'cmake_force_configure' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'custommsgsrv' build argument 'ament_cmake_args' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'custommsgsrv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'custommsgsrv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.663s] DEBUG:colcon.colcon_core.verb:Building package 'custommsgsrv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siddhant/mrt_ws/build/custommsgsrv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siddhant/mrt_ws/install/custommsgsrv', 'merge_install': False, 'path': '/home/siddhant/mrt_ws/src/custommsgsrv', 'symlink_install': False, 'test_result_base': None}
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'cmake_args' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'cmake_target' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'cmake_clean_cache' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'cmake_clean_first' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'cmake_force_configure' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'ament_cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'catkin_cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.664s] DEBUG:colcon.colcon_core.verb:Building package 'sauron' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siddhant/mrt_ws/build/sauron', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siddhant/mrt_ws/install/sauron', 'merge_install': False, 'path': '/home/siddhant/mrt_ws/src/sauron', 'symlink_install': False, 'test_result_base': None}
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'arucoasmt' build argument 'cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'arucoasmt' build argument 'cmake_target' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'arucoasmt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'arucoasmt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'arucoasmt' build argument 'cmake_clean_first' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'arucoasmt' build argument 'cmake_force_configure' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'arucoasmt' build argument 'ament_cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'arucoasmt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'arucoasmt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.665s] DEBUG:colcon.colcon_core.verb:Building package 'arucoasmt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siddhant/mrt_ws/build/arucoasmt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siddhant/mrt_ws/install/arucoasmt', 'merge_install': False, 'path': '/home/siddhant/mrt_ws/src/arucoasmt', 'symlink_install': False, 'test_result_base': None}
+[0.665s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.667s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.668s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/siddhant/mrt_ws/src/custommsgsrv' with build type 'ament_cmake'
+[0.668s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/siddhant/mrt_ws/src/custommsgsrv'
+[0.673s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.673s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.680s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/siddhant/mrt_ws/src/sauron' with build type 'ament_python'
+[0.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('sauron', 'ament_prefix_path')
+[0.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/mrt_ws/install/sauron/share/sauron/hook/ament_prefix_path.ps1'
+[0.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddhant/mrt_ws/install/sauron/share/sauron/hook/ament_prefix_path.dsv'
+[0.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/mrt_ws/install/sauron/share/sauron/hook/ament_prefix_path.sh'
+[0.687s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.687s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddhant/mrt_ws/build/custommsgsrv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble /usr/bin/cmake --build /home/siddhant/mrt_ws/build/custommsgsrv -- -j4 -l4
+[1.512s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/siddhant/mrt_ws/src/sauron'
+[1.513s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.514s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddhant/mrt_ws/build/custommsgsrv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble /usr/bin/cmake --build /home/siddhant/mrt_ws/build/custommsgsrv -- -j4 -l4
+[2.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddhant/mrt_ws/build/custommsgsrv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble /usr/bin/cmake --install /home/siddhant/mrt_ws/build/custommsgsrv
+[2.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custommsgsrv)
+[2.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddhant/mrt_ws/build/custommsgsrv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble /usr/bin/cmake --install /home/siddhant/mrt_ws/build/custommsgsrv
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/custommsgsrv' for CMake module files
+[2.240s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/custommsgsrv' for CMake config files
+[2.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('custommsgsrv', 'cmake_prefix_path')
+[2.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/hook/cmake_prefix_path.ps1'
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/hook/cmake_prefix_path.dsv'
+[2.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/hook/cmake_prefix_path.sh'
+[2.245s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/custommsgsrv/lib'
+[2.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('custommsgsrv', 'ld_library_path_lib')
+[2.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/hook/ld_library_path_lib.ps1'
+[2.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/hook/ld_library_path_lib.dsv'
+[2.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/hook/ld_library_path_lib.sh'
+[2.249s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/custommsgsrv/bin'
+[2.249s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/custommsgsrv/lib/pkgconfig/custommsgsrv.pc'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/custommsgsrv/lib/python3.10/site-packages'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/custommsgsrv/bin'
+[2.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/package.ps1'
+[2.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/package.dsv'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/package.sh'
+[2.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/package.bash'
+[2.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/package.zsh'
+[2.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddhant/mrt_ws/install/custommsgsrv/share/colcon-core/packages/custommsgsrv)
+[2.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddhant/mrt_ws/src/sauron': PYTHONPATH=/home/siddhant/mrt_ws/build/sauron/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sauron build --build-base /home/siddhant/mrt_ws/build/sauron/build install --record /home/siddhant/mrt_ws/build/sauron/install.log --single-version-externally-managed install_data
+[2.526s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custommsgsrv)
+[2.527s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/custommsgsrv' for CMake module files
+[2.529s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/custommsgsrv' for CMake config files
+[2.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('custommsgsrv', 'cmake_prefix_path')
+[2.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/hook/cmake_prefix_path.ps1'
+[2.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/hook/cmake_prefix_path.dsv'
+[2.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/hook/cmake_prefix_path.sh'
+[2.535s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/custommsgsrv/lib'
+[2.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('custommsgsrv', 'ld_library_path_lib')
+[2.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/hook/ld_library_path_lib.ps1'
+[2.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/hook/ld_library_path_lib.dsv'
+[2.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/hook/ld_library_path_lib.sh'
+[2.539s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/custommsgsrv/bin'
+[2.539s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/custommsgsrv/lib/pkgconfig/custommsgsrv.pc'
+[2.539s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/custommsgsrv/lib/python3.10/site-packages'
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/custommsgsrv/bin'
+[2.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/package.ps1'
+[2.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/package.dsv'
+[2.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/package.sh'
+[2.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/package.bash'
+[2.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/package.zsh'
+[2.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddhant/mrt_ws/install/custommsgsrv/share/colcon-core/packages/custommsgsrv)
+[2.547s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/siddhant/mrt_ws/src/arucoasmt' with build type 'ament_python'
+[2.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('arucoasmt', 'ament_prefix_path')
+[2.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/mrt_ws/install/arucoasmt/share/arucoasmt/hook/ament_prefix_path.ps1'
+[2.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddhant/mrt_ws/install/arucoasmt/share/arucoasmt/hook/ament_prefix_path.dsv'
+[2.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/mrt_ws/install/arucoasmt/share/arucoasmt/hook/ament_prefix_path.sh'
+[2.552s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.553s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.138s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/siddhant/mrt_ws/src/arucoasmt'
+[3.139s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.139s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.147s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/sauron' for CMake module files
+[3.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddhant/mrt_ws/src/sauron' returned '0': PYTHONPATH=/home/siddhant/mrt_ws/build/sauron/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sauron build --build-base /home/siddhant/mrt_ws/build/sauron/build install --record /home/siddhant/mrt_ws/build/sauron/install.log --single-version-externally-managed install_data
+[3.149s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/sauron' for CMake config files
+[3.150s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/sauron/lib'
+[3.151s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/sauron/bin'
+[3.151s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/sauron/lib/pkgconfig/sauron.pc'
+[3.151s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages'
+[3.151s] Level 1:colcon.colcon_core.shell:create_environment_hook('sauron', 'pythonpath')
+[3.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/mrt_ws/install/sauron/share/sauron/hook/pythonpath.ps1'
+[3.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddhant/mrt_ws/install/sauron/share/sauron/hook/pythonpath.dsv'
+[3.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/mrt_ws/install/sauron/share/sauron/hook/pythonpath.sh'
+[3.155s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/sauron/bin'
+[3.155s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sauron)
+[3.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/mrt_ws/install/sauron/share/sauron/package.ps1'
+[3.157s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddhant/mrt_ws/install/sauron/share/sauron/package.dsv'
+[3.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/mrt_ws/install/sauron/share/sauron/package.sh'
+[3.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/mrt_ws/install/sauron/share/sauron/package.bash'
+[3.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/mrt_ws/install/sauron/share/sauron/package.zsh'
+[3.160s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddhant/mrt_ws/install/sauron/share/colcon-core/packages/sauron)
+[3.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddhant/mrt_ws/src/arucoasmt': PYTHONPATH=/home/siddhant/mrt_ws/build/arucoasmt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arucoasmt build --build-base /home/siddhant/mrt_ws/build/arucoasmt/build install --record /home/siddhant/mrt_ws/build/arucoasmt/install.log --single-version-externally-managed install_data
+[4.351s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/arucoasmt' for CMake module files
+[4.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddhant/mrt_ws/src/arucoasmt' returned '0': PYTHONPATH=/home/siddhant/mrt_ws/build/arucoasmt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arucoasmt build --build-base /home/siddhant/mrt_ws/build/arucoasmt/build install --record /home/siddhant/mrt_ws/build/arucoasmt/install.log --single-version-externally-managed install_data
+[4.353s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/arucoasmt' for CMake config files
+[4.354s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/arucoasmt/lib'
+[4.354s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/arucoasmt/bin'
+[4.355s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/arucoasmt/lib/pkgconfig/arucoasmt.pc'
+[4.355s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages'
+[4.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('arucoasmt', 'pythonpath')
+[4.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/mrt_ws/install/arucoasmt/share/arucoasmt/hook/pythonpath.ps1'
+[4.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddhant/mrt_ws/install/arucoasmt/share/arucoasmt/hook/pythonpath.dsv'
+[4.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/mrt_ws/install/arucoasmt/share/arucoasmt/hook/pythonpath.sh'
+[4.358s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/mrt_ws/install/arucoasmt/bin'
+[4.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arucoasmt)
+[4.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/mrt_ws/install/arucoasmt/share/arucoasmt/package.ps1'
+[4.360s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddhant/mrt_ws/install/arucoasmt/share/arucoasmt/package.dsv'
+[4.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/mrt_ws/install/arucoasmt/share/arucoasmt/package.sh'
+[4.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/mrt_ws/install/arucoasmt/share/arucoasmt/package.bash'
+[4.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/mrt_ws/install/arucoasmt/share/arucoasmt/package.zsh'
+[4.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddhant/mrt_ws/install/arucoasmt/share/colcon-core/packages/arucoasmt)
+[4.364s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.364s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.365s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.365s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.376s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.376s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.376s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.409s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.410s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddhant/mrt_ws/install/local_setup.ps1'
+[4.413s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/siddhant/mrt_ws/install/_local_setup_util_ps1.py'
+[4.419s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddhant/mrt_ws/install/setup.ps1'
+[4.427s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddhant/mrt_ws/install/local_setup.sh'
+[4.429s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/siddhant/mrt_ws/install/_local_setup_util_sh.py'
+[4.431s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddhant/mrt_ws/install/setup.sh'
+[4.436s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddhant/mrt_ws/install/local_setup.bash'
+[4.438s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddhant/mrt_ws/install/setup.bash'
+[4.441s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddhant/mrt_ws/install/local_setup.zsh'
+[4.442s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddhant/mrt_ws/install/setup.zsh'

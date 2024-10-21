@@ -1,0 +1,20 @@
+[1.206s] Invoking command in '/home/siddhant/mrt_ws/src/arucoasmt': PYTHONPATH=/home/siddhant/mrt_ws/build/arucoasmt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arucoasmt build --build-base /home/siddhant/mrt_ws/build/arucoasmt/build install --record /home/siddhant/mrt_ws/build/arucoasmt/install.log --single-version-externally-managed install_data
+[1.672s] running egg_info
+[1.673s] writing ../../build/arucoasmt/arucoasmt.egg-info/PKG-INFO
+[1.674s] writing dependency_links to ../../build/arucoasmt/arucoasmt.egg-info/dependency_links.txt
+[1.674s] writing entry points to ../../build/arucoasmt/arucoasmt.egg-info/entry_points.txt
+[1.674s] writing requirements to ../../build/arucoasmt/arucoasmt.egg-info/requires.txt
+[1.675s] writing top-level names to ../../build/arucoasmt/arucoasmt.egg-info/top_level.txt
+[1.679s] reading manifest file '../../build/arucoasmt/arucoasmt.egg-info/SOURCES.txt'
+[1.680s] writing manifest file '../../build/arucoasmt/arucoasmt.egg-info/SOURCES.txt'
+[1.681s] running build
+[1.681s] running build_py
+[1.681s] running install
+[1.682s] running install_lib
+[1.685s] running install_data
+[1.685s] running install_egg_info
+[1.689s] removing '/home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages/arucoasmt-0.0.0-py3.10.egg-info' (and everything under it)
+[1.690s] Copying ../../build/arucoasmt/arucoasmt.egg-info to /home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages/arucoasmt-0.0.0-py3.10.egg-info
+[1.692s] running install_scripts
+[1.730s] writing list of installed files to '/home/siddhant/mrt_ws/build/arucoasmt/install.log'
+[1.802s] Invoked command in '/home/siddhant/mrt_ws/src/arucoasmt' returned '0': PYTHONPATH=/home/siddhant/mrt_ws/build/arucoasmt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/mrt_ws/install/arucoasmt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arucoasmt build --build-base /home/siddhant/mrt_ws/build/arucoasmt/build install --record /home/siddhant/mrt_ws/build/arucoasmt/install.log --single-version-externally-managed install_data

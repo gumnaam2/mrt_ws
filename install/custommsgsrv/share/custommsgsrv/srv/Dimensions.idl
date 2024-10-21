@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custommsgsrv/srv/Dimensions.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module custommsgsrv {
+  module srv {
+    struct Dimensions_Request {
+      sensor_msgs::msg::Image img;
+    };
+    struct Dimensions_Response {
+      int64 a;
+
+      int64 b;
+
+      int64 c;
+    };
+  };
+};

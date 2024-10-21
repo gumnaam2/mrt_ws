@@ -1,0 +1,294 @@
+[0.044s] Invoking command in '/home/siddhant/mrt_ws/build/custommsgsrv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble /usr/bin/cmake --build /home/siddhant/mrt_ws/build/custommsgsrv -- -j4 -l4
+[0.173s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.711s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.776s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.781s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.793s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.812s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.843s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.910s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.579s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.537s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.911s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.980s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.036s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.036s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.036s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.125s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.155s] -- Added test 'lint_cmake' to check CMake code style
+[3.159s] -- Added test 'xmllint' to check XML markup files
+[3.164s] -- Configuring done
+[3.256s] -- Generating done
+[3.266s] -- Build files have been written to: /home/siddhant/mrt_ws/build/custommsgsrv
+[3.330s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.362s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.393s] [  4%] Built target ament_cmake_python_copy_custommsgsrv
+[3.932s] running egg_info
+[3.933s] writing custommsgsrv.egg-info/PKG-INFO
+[3.934s] writing dependency_links to custommsgsrv.egg-info/dependency_links.txt
+[3.936s] writing top-level names to custommsgsrv.egg-info/top_level.txt
+[3.939s] reading manifest file 'custommsgsrv.egg-info/SOURCES.txt'
+[3.941s] writing manifest file 'custommsgsrv.egg-info/SOURCES.txt'
+[4.027s] [  4%] Built target ament_cmake_python_build_custommsgsrv_egg
+[4.369s] [  4%] Built target custommsgsrv__cpp
+[4.408s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.422s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.425s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.568s] [35m[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_generator_c[0m
+[4.611s] [ 12%] [32mBuilding C object CMakeFiles/custommsgsrv__rosidl_generator_c.dir/rosidl_generator_c/custommsgsrv/msg/detail/num__functions.c.o[0m
+[4.794s] [ 14%] [32mBuilding C object CMakeFiles/custommsgsrv__rosidl_generator_c.dir/rosidl_generator_c/custommsgsrv/msg/detail/sphere__functions.c.o[0m
+[4.943s] [ 17%] [32mBuilding C object CMakeFiles/custommsgsrv__rosidl_generator_c.dir/rosidl_generator_c/custommsgsrv/srv/detail/hypo__functions.c.o[0m
+[5.116s] [ 19%] [32m[1mLinking C shared library libcustommsgsrv__rosidl_generator_c.so[0m
+[5.300s] [35m[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_typesupport_cpp[0m
+[5.316s] [ 19%] Built target custommsgsrv__rosidl_generator_c
+[5.347s] [ 21%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custommsgsrv/msg/num__type_support.cpp.o[0m
+[5.378s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.491s] [35m[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_typesupport_introspection_cpp[0m
+[5.538s] [ 25%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custommsgsrv/msg/detail/num__type_support.cpp.o[0m
+[5.676s] [35m[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_typesupport_fastrtps_cpp[0m
+[5.744s] [ 27%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custommsgsrv/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[6.348s] [ 29%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custommsgsrv/msg/sphere__type_support.cpp.o[0m
+[6.676s] [ 31%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custommsgsrv/msg/detail/sphere__type_support.cpp.o[0m
+[6.875s] [35m[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_typesupport_fastrtps_c[0m
+[6.969s] [ 34%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custommsgsrv/msg/detail/num__type_support_c.cpp.o[0m
+[7.109s] [ 36%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custommsgsrv/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[7.252s] [ 38%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custommsgsrv/srv/hypo__type_support.cpp.o[0m
+[8.044s] [ 40%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custommsgsrv/srv/detail/hypo__type_support.cpp.o[0m
+[8.192s] [ 42%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custommsgsrv/msg/detail/sphere__type_support_c.cpp.o[0m
+[8.310s] [ 44%] [32m[1mLinking CXX shared library libcustommsgsrv__rosidl_typesupport_cpp.so[0m
+[8.470s] [ 44%] Built target custommsgsrv__rosidl_typesupport_cpp
+[8.501s] [ 46%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custommsgsrv/srv/detail/dds_fastrtps/hypo__type_support.cpp.o[0m
+[8.551s] [ 48%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custommsgsrv/srv/detail/hypo__type_support_c.cpp.o[0m
+[9.303s] [ 51%] [32m[1mLinking CXX shared library libcustommsgsrv__rosidl_typesupport_introspection_cpp.so[0m
+[9.608s] [ 51%] Built target custommsgsrv__rosidl_typesupport_introspection_cpp
+[9.648s] [ 53%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.677s] [ 55%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.775s] [ 57%] [32m[1mLinking CXX shared library libcustommsgsrv__rosidl_typesupport_fastrtps_c.so[0m
+[10.016s] [ 59%] [32m[1mLinking CXX shared library libcustommsgsrv__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.174s] [ 59%] Built target custommsgsrv__rosidl_typesupport_fastrtps_c
+[10.353s] [ 59%] Built target custommsgsrv__rosidl_typesupport_fastrtps_cpp
+[10.490s] [35m[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_typesupport_c[0m
+[10.520s] [ 65%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_c.dir/rosidl_typesupport_c/custommsgsrv/msg/sphere__type_support.cpp.o[0m
+[10.521s] [ 65%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_c.dir/rosidl_typesupport_c/custommsgsrv/msg/num__type_support.cpp.o[0m
+[10.521s] [ 65%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_c.dir/rosidl_typesupport_c/custommsgsrv/srv/hypo__type_support.cpp.o[0m
+[10.614s] [ 68%] [32m[1mLinking CXX shared library libcustommsgsrv__rosidl_typesupport_c.so[0m
+[10.625s] [35m[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_typesupport_introspection_c[0m
+[10.658s] [ 72%] [32mBuilding C object CMakeFiles/custommsgsrv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custommsgsrv/msg/detail/sphere__type_support.c.o[0m
+[10.658s] [ 74%] [32mBuilding C object CMakeFiles/custommsgsrv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custommsgsrv/msg/detail/num__type_support.c.o[0m
+[10.659s] [ 72%] [32mBuilding C object CMakeFiles/custommsgsrv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custommsgsrv/srv/detail/hypo__type_support.c.o[0m
+[10.736s] [ 74%] Built target custommsgsrv__rosidl_typesupport_c
+[10.759s] [ 76%] [32m[1mLinking C shared library libcustommsgsrv__rosidl_typesupport_introspection_c.so[0m
+[10.838s] [ 76%] Built target custommsgsrv__rosidl_typesupport_introspection_c
+[10.891s] [ 76%] Built target custommsgsrv
+[10.938s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.917s] [ 78%] Built target custommsgsrv__py
+[11.940s] [35m[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_generator_py[0m
+[11.982s] [ 80%] [32mBuilding C object CMakeFiles/custommsgsrv__rosidl_generator_py.dir/rosidl_generator_py/custommsgsrv/msg/_num_s.c.o[0m
+[11.983s] [ 82%] [32mBuilding C object CMakeFiles/custommsgsrv__rosidl_generator_py.dir/rosidl_generator_py/custommsgsrv/srv/_hypo_s.c.o[0m
+[11.985s] [ 85%] [32mBuilding C object CMakeFiles/custommsgsrv__rosidl_generator_py.dir/rosidl_generator_py/custommsgsrv/msg/_sphere_s.c.o[0m
+[12.237s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/custommsgsrv/libcustommsgsrv__rosidl_generator_py.so[0m
+[12.342s] [ 87%] Built target custommsgsrv__rosidl_generator_py
+[12.372s] [35m[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_typesupport_c__pyext[0m
+[12.372s] [35m[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_typesupport_introspection_c__pyext[0m
+[12.372s] [35m[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_typesupport_fastrtps_c__pyext[0m
+[12.411s] [ 89%] [32mBuilding C object CMakeFiles/custommsgsrv__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custommsgsrv/_custommsgsrv_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.412s] [ 91%] [32mBuilding C object CMakeFiles/custommsgsrv__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custommsgsrv/_custommsgsrv_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.412s] [ 93%] [32mBuilding C object CMakeFiles/custommsgsrv__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custommsgsrv/_custommsgsrv_s.ep.rosidl_typesupport_c.c.o[0m
+[12.741s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/custommsgsrv/custommsgsrv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.781s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custommsgsrv/custommsgsrv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.833s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custommsgsrv/custommsgsrv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.874s] [100%] Built target custommsgsrv__rosidl_typesupport_c__pyext
+[12.897s] [100%] Built target custommsgsrv__rosidl_typesupport_fastrtps_c__pyext
+[12.936s] [100%] Built target custommsgsrv__rosidl_typesupport_introspection_c__pyext
+[12.964s] Invoked command in '/home/siddhant/mrt_ws/build/custommsgsrv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble /usr/bin/cmake --build /home/siddhant/mrt_ws/build/custommsgsrv -- -j4 -l4
+[13.201s] Invoking command in '/home/siddhant/mrt_ws/build/custommsgsrv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble /usr/bin/cmake --install /home/siddhant/mrt_ws/build/custommsgsrv
+[13.216s] -- Install configuration: ""
+[13.217s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/ament_index/resource_index/rosidl_interfaces/custommsgsrv
+[13.217s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv
+[13.218s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv
+[13.218s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail
+[13.218s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__functions.c
+[13.219s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__struct.h
+[13.219s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__type_support.h
+[13.220s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__functions.h
+[13.220s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/hypo.h
+[13.221s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg
+[13.221s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/rosidl_generator_c__visibility_control.h
+[13.222s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/num.h
+[13.222s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail
+[13.222s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__type_support.h
+[13.222s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__type_support.h
+[13.222s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__struct.h
+[13.223s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__functions.h
+[13.223s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__struct.h
+[13.223s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__functions.h
+[13.223s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__functions.c
+[13.223s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__functions.c
+[13.224s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/sphere.h
+[13.224s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/library_path.sh
+[13.224s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/library_path.dsv
+[13.224s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_generator_c.so
+[13.225s] -- Set runtime path of "/home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_generator_c.so" to ""
+[13.225s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv
+[13.225s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv
+[13.226s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail
+[13.226s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__rosidl_typesupport_fastrtps_c.h
+[13.226s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg
+[13.226s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail
+[13.226s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[13.227s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[13.227s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.227s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_fastrtps_c.so
+[13.228s] -- Set runtime path of "/home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_fastrtps_c.so" to ""
+[13.229s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv
+[13.229s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv
+[13.229s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/hypo.hpp
+[13.229s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail
+[13.229s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__traits.hpp
+[13.230s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__struct.hpp
+[13.230s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__builder.hpp
+[13.230s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg
+[13.230s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/sphere.hpp
+[13.231s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail
+[13.231s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__struct.hpp
+[13.231s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__builder.hpp
+[13.231s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__traits.hpp
+[13.232s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__traits.hpp
+[13.232s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__builder.hpp
+[13.233s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__struct.hpp
+[13.233s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/num.hpp
+[13.233s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv
+[13.234s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv
+[13.234s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail
+[13.234s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__rosidl_typesupport_fastrtps_cpp.hpp
+[13.234s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/dds_fastrtps
+[13.235s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg
+[13.235s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail
+[13.235s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[13.235s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/dds_fastrtps
+[13.235s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[13.236s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.236s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_fastrtps_cpp.so
+[13.237s] -- Set runtime path of "/home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.237s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv
+[13.237s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv
+[13.238s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail
+[13.238s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__rosidl_typesupport_introspection_c.h
+[13.238s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__type_support.c
+[13.238s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg
+[13.239s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail
+[13.239s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__rosidl_typesupport_introspection_c.h
+[13.239s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[13.239s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__type_support.c
+[13.240s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__type_support.c
+[13.240s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.240s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_introspection_c.so
+[13.241s] -- Set runtime path of "/home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_introspection_c.so" to ""
+[13.242s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_c.so
+[13.243s] -- Set runtime path of "/home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_c.so" to ""
+[13.243s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv
+[13.243s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv
+[13.243s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail
+[13.243s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__rosidl_typesupport_introspection_cpp.hpp
+[13.244s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/srv/detail/hypo__type_support.cpp
+[13.245s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg
+[13.245s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail
+[13.245s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[13.245s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[13.246s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/num__type_support.cpp
+[13.246s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/include/custommsgsrv/custommsgsrv/msg/detail/sphere__type_support.cpp
+[13.246s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_introspection_cpp.so
+[13.247s] -- Set runtime path of "/home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_introspection_cpp.so" to ""
+[13.247s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_cpp.so
+[13.249s] -- Set runtime path of "/home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_typesupport_cpp.so" to ""
+[13.249s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/pythonpath.sh
+[13.249s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/pythonpath.dsv
+[13.249s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv-0.0.0-py3.10.egg-info
+[13.250s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv-0.0.0-py3.10.egg-info/SOURCES.txt
+[13.250s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv-0.0.0-py3.10.egg-info/PKG-INFO
+[13.250s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv-0.0.0-py3.10.egg-info/dependency_links.txt
+[13.250s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv-0.0.0-py3.10.egg-info/top_level.txt
+[13.251s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv
+[13.251s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/srv
+[13.251s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/srv/_hypo.py
+[13.252s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/srv/__init__.py
+[13.252s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/srv/_hypo_s.c
+[13.252s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/custommsgsrv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.253s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/__init__.py
+[13.253s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/custommsgsrv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.253s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/_custommsgsrv_s.ep.rosidl_typesupport_introspection_c.c
+[13.254s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/custommsgsrv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.254s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/_custommsgsrv_s.ep.rosidl_typesupport_c.c
+[13.256s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/libcustommsgsrv__rosidl_generator_py.so
+[13.256s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/_custommsgsrv_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.256s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg
+[13.257s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg/_num.py
+[13.257s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg/_sphere_s.c
+[13.258s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg/__init__.py
+[13.258s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg/_num_s.c
+[13.258s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg/_sphere.py
+[13.328s] Listing '/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv'...
+[13.328s] Compiling '/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/__init__.py'...
+[13.328s] Listing '/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg'...
+[13.328s] Compiling '/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg/__init__.py'...
+[13.329s] Compiling '/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg/_num.py'...
+[13.329s] Compiling '/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/msg/_sphere.py'...
+[13.329s] Listing '/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/srv'...
+[13.329s] Compiling '/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/srv/__init__.py'...
+[13.329s] Compiling '/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/srv/_hypo.py'...
+[13.340s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/custommsgsrv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.340s] -- Set runtime path of "/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/custommsgsrv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.340s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/custommsgsrv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.342s] -- Set runtime path of "/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/custommsgsrv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.342s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/custommsgsrv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.343s] -- Set runtime path of "/home/siddhant/mrt_ws/install/custommsgsrv/local/lib/python3.10/dist-packages/custommsgsrv/custommsgsrv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.343s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_generator_py.so
+[13.345s] -- Set runtime path of "/home/siddhant/mrt_ws/install/custommsgsrv/lib/libcustommsgsrv__rosidl_generator_py.so" to ""
+[13.345s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/msg/Num.idl
+[13.345s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/msg/Sphere.idl
+[13.346s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/srv/Hypo.idl
+[13.347s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/msg/Num.msg
+[13.347s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/msg/Sphere.msg
+[13.347s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/srv/Hypo.srv
+[13.347s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/srv/Hypo_Request.msg
+[13.348s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/srv/Hypo_Response.msg
+[13.348s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/ament_index/resource_index/package_run_dependencies/custommsgsrv
+[13.349s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/ament_index/resource_index/parent_prefix_path/custommsgsrv
+[13.349s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/ament_prefix_path.sh
+[13.349s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/ament_prefix_path.dsv
+[13.350s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/path.sh
+[13.350s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/environment/path.dsv
+[13.350s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/local_setup.bash
+[13.352s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/local_setup.sh
+[13.352s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/local_setup.zsh
+[13.352s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/local_setup.dsv
+[13.352s] -- Installing: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/package.dsv
+[13.353s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/ament_index/resource_index/packages/custommsgsrv
+[13.353s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_generator_cExport.cmake
+[13.353s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_generator_cExport-noconfig.cmake
+[13.353s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_typesupport_fastrtps_cExport.cmake
+[13.354s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.354s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_generator_cppExport.cmake
+[13.354s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.354s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.354s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrv__rosidl_typesupport_introspection_cExport.cmake
+[13.355s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.355s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrv__rosidl_typesupport_cExport.cmake
+[13.355s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrv__rosidl_typesupport_cExport-noconfig.cmake
+[13.355s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrv__rosidl_typesupport_introspection_cppExport.cmake
+[13.355s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.355s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrv__rosidl_typesupport_cppExport.cmake
+[13.356s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrv__rosidl_typesupport_cppExport-noconfig.cmake
+[13.356s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_generator_pyExport.cmake
+[13.356s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/export_custommsgsrv__rosidl_generator_pyExport-noconfig.cmake
+[13.356s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/rosidl_cmake-extras.cmake
+[13.357s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.357s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.357s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/ament_cmake_export_libraries-extras.cmake
+[13.357s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/ament_cmake_export_targets-extras.cmake
+[13.358s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.358s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.358s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrvConfig.cmake
+[13.358s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/cmake/custommsgsrvConfig-version.cmake
+[13.358s] -- Up-to-date: /home/siddhant/mrt_ws/install/custommsgsrv/share/custommsgsrv/package.xml
+[13.363s] Invoked command in '/home/siddhant/mrt_ws/build/custommsgsrv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble /usr/bin/cmake --install /home/siddhant/mrt_ws/build/custommsgsrv

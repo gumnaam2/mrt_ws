@@ -1,0 +1,4 @@
+source;share/custommsgsrv/local_setup.bash
+source;share/custommsgsrv/local_setup.dsv
+source;share/custommsgsrv/local_setup.sh
+source;share/custommsgsrv/local_setup.zsh

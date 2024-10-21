@@ -1,0 +1,2 @@
+Invoking command in '/home/siddhant/mrt_ws/build/custommsgsrv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble /usr/bin/cmake --build /home/siddhant/mrt_ws/build/custommsgsrv -- -j4 -l4
+Invoked command in '/home/siddhant/mrt_ws/build/custommsgsrv' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble /usr/bin/cmake --build /home/siddhant/mrt_ws/build/custommsgsrv -- -j4 -l4

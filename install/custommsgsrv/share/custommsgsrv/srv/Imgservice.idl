@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custommsgsrv/srv/Imgservice.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Polygon.idl"
+#include "sensor_msgs/msg/Image.idl"
+
+module custommsgsrv {
+  module srv {
+    struct Imgservice_Request {
+      sensor_msgs::msg::Image img;
+    };
+    struct Imgservice_Response {
+      sequence<geometry_msgs::msg::Polygon> corners;
+
+      sequence<int64> ids;
+    };
+  };
+};

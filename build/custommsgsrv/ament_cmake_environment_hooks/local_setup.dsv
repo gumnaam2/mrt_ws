@@ -1,0 +1,4 @@
+source;share/custommsgsrv/environment/ament_prefix_path.sh
+source;share/custommsgsrv/environment/library_path.sh
+source;share/custommsgsrv/environment/path.sh
+source;share/custommsgsrv/environment/pythonpath.sh

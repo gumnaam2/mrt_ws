@@ -1,0 +1,23 @@
+[1.673s] Invoking command in '/home/siddhant/mrt_ws/src/sauron': PYTHONPATH=/home/siddhant/mrt_ws/build/sauron/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sauron build --build-base /home/siddhant/mrt_ws/build/sauron/build install --record /home/siddhant/mrt_ws/build/sauron/install.log --single-version-externally-managed install_data
+[2.184s] running egg_info
+[2.186s] writing ../../build/sauron/sauron.egg-info/PKG-INFO
+[2.187s] writing dependency_links to ../../build/sauron/sauron.egg-info/dependency_links.txt
+[2.187s] writing entry points to ../../build/sauron/sauron.egg-info/entry_points.txt
+[2.188s] writing requirements to ../../build/sauron/sauron.egg-info/requires.txt
+[2.188s] writing top-level names to ../../build/sauron/sauron.egg-info/top_level.txt
+[2.193s] reading manifest file '../../build/sauron/sauron.egg-info/SOURCES.txt'
+[2.194s] writing manifest file '../../build/sauron/sauron.egg-info/SOURCES.txt'
+[2.195s] running build
+[2.195s] running build_py
+[2.195s] running install
+[2.196s] running install_lib
+[2.202s] running install_data
+[2.202s] running install_egg_info
+[2.206s] removing '/home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages/sauron-0.0.0-py3.10.egg-info' (and everything under it)
+[2.208s] Copying ../../build/sauron/sauron.egg-info to /home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages/sauron-0.0.0-py3.10.egg-info
+[2.210s] running install_scripts
+[2.258s] Installing listener script to /home/siddhant/mrt_ws/install/sauron/lib/sauron
+[2.259s] Installing talker1 script to /home/siddhant/mrt_ws/install/sauron/lib/sauron
+[2.260s] Installing talker2 script to /home/siddhant/mrt_ws/install/sauron/lib/sauron
+[2.261s] writing list of installed files to '/home/siddhant/mrt_ws/build/sauron/install.log'
+[2.418s] Invoked command in '/home/siddhant/mrt_ws/src/sauron' returned '0': PYTHONPATH=/home/siddhant/mrt_ws/build/sauron/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/mrt_ws/install/sauron/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sauron build --build-base /home/siddhant/mrt_ws/build/sauron/build install --record /home/siddhant/mrt_ws/build/sauron/install.log --single-version-externally-managed install_data

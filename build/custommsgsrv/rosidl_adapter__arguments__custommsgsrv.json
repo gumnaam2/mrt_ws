@@ -1,0 +1,11 @@
+{
+  "package_name": "custommsgsrv",
+  "non_idl_tuples": [
+    "/home/siddhant/mrt_ws/src/custommsgsrv:msg/Num.msg",
+    "/home/siddhant/mrt_ws/src/custommsgsrv:msg/Sphere.msg",
+    "/home/siddhant/mrt_ws/src/custommsgsrv:msg/List.msg",
+    "/home/siddhant/mrt_ws/src/custommsgsrv:srv/Hypo.srv",
+    "/home/siddhant/mrt_ws/src/custommsgsrv:srv/Dimensions.srv",
+    "/home/siddhant/mrt_ws/src/custommsgsrv:srv/Imgservice.srv"
+  ]
+}

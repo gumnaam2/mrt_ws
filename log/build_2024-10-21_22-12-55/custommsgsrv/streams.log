@@ -1,0 +1,66 @@
+[0.032s] Invoking command in '/home/siddhant/mrt_ws/build/custommsgsrv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble /usr/bin/cmake --build /home/siddhant/mrt_ws/build/custommsgsrv -- -j4 -l4
+[0.067s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.253s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.303s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.307s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.316s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.355s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.404s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.413s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.970s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.686s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.956s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.992s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.026s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.026s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.026s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.110s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.122s] -- Added test 'lint_cmake' to check CMake code style
+[2.123s] -- Added test 'xmllint' to check XML markup files
+[2.126s] -- Configuring done
+[2.190s] -- Generating done
+[2.195s] -- Build files have been written to: /home/siddhant/mrt_ws/build/custommsgsrv
+[2.249s] [35m[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_generator_c[0m
+[2.263s] [  1%] Built target custommsgsrv__cpp
+[2.280s] [  2%] [32mBuilding C object CMakeFiles/custommsgsrv__rosidl_generator_c.dir/rosidl_generator_c/custommsgsrv/srv/detail/imgservice__functions.c.o[0m
+[2.290s] [35m[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_typesupport_fastrtps_cpp[0m
+[2.294s] [35m[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_typesupport_cpp[0m
+[2.303s] [  2%] Built target ament_cmake_python_copy_custommsgsrv
+[2.312s] In file included from [01m[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_generator_c/custommsgsrv/srv/detail/imgservice__functions.h:19[m[K,
+[2.312s]                  from [01m[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_generator_c/custommsgsrv/srv/detail/imgservice__functions.c:4[m[K:
+[2.313s] [01m[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_generator_c/custommsgsrv/srv/detail/imgservice__struct.h:45:10:[m[K [01;31m[Kfatal error: [m[Kcustommsgsrv/msg/detail/polygon__struct.h: No such file or directory
+[2.313s]    45 | #include [01;31m[K"custommsgsrv/msg/detail/polygon__struct.h"[m[K
+[2.313s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.313s] compilation terminated.
+[2.318s] gmake[2]: *** [CMakeFiles/custommsgsrv__rosidl_generator_c.dir/build.make:345: CMakeFiles/custommsgsrv__rosidl_generator_c.dir/rosidl_generator_c/custommsgsrv/srv/detail/imgservice__functions.c.o] Error 1
+[2.318s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/custommsgsrv__rosidl_generator_c.dir/all] Error 2
+[2.318s] gmake[1]: *** Waiting for unfinished jobs....
+[2.335s] [35m[1mConsolidate compiler generated dependencies of target custommsgsrv__rosidl_typesupport_introspection_cpp[0m
+[2.336s] [  4%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custommsgsrv/srv/detail/dds_fastrtps/imgservice__type_support.cpp.o[0m
+[2.339s] [  5%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custommsgsrv/srv/imgservice__type_support.cpp.o[0m
+[2.368s] [  7%] [32mBuilding CXX object CMakeFiles/custommsgsrv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custommsgsrv/srv/detail/imgservice__type_support.cpp.o[0m
+[2.449s] In file included from [01m[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_typesupport_cpp/custommsgsrv/srv/imgservice__type_support.cpp:7[m[K:
+[2.450s] [01m[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_generator_cpp/custommsgsrv/srv/detail/imgservice__struct.hpp:131:10:[m[K [01;31m[Kfatal error: [m[Kcustommsgsrv/msg/detail/polygon__struct.hpp: No such file or directory
+[2.450s]   131 | #include [01;31m[K"custommsgsrv/msg/detail/polygon__struct.hpp"[m[K
+[2.450s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.450s] compilation terminated.
+[2.450s] In file included from [01m[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_typesupport_fastrtps_cpp/custommsgsrv/srv/detail/imgservice__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[2.451s]                  from [01m[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_typesupport_fastrtps_cpp/custommsgsrv/srv/detail/dds_fastrtps/imgservice__type_support.cpp:4[m[K:
+[2.451s] [01m[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_generator_cpp/custommsgsrv/srv/detail/imgservice__struct.hpp:131:10:[m[K [01;31m[Kfatal error: [m[Kcustommsgsrv/msg/detail/polygon__struct.hpp: No such file or directory
+[2.451s]   131 | #include [01;31m[K"custommsgsrv/msg/detail/polygon__struct.hpp"[m[K
+[2.451s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.451s] compilation terminated.
+[2.454s] gmake[2]: *** [CMakeFiles/custommsgsrv__rosidl_typesupport_fastrtps_cpp.dir/build.make:286: CMakeFiles/custommsgsrv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custommsgsrv/srv/detail/dds_fastrtps/imgservice__type_support.cpp.o] Error 1
+[2.454s] gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/custommsgsrv__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[2.456s] gmake[2]: *** [CMakeFiles/custommsgsrv__rosidl_typesupport_cpp.dir/build.make:266: CMakeFiles/custommsgsrv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custommsgsrv/srv/imgservice__type_support.cpp.o] Error 1
+[2.456s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/custommsgsrv__rosidl_typesupport_cpp.dir/all] Error 2
+[2.480s] In file included from [01m[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_typesupport_introspection_cpp/custommsgsrv/srv/detail/imgservice__type_support.cpp:12[m[K:
+[2.480s] [01m[K/home/siddhant/mrt_ws/build/custommsgsrv/rosidl_generator_cpp/custommsgsrv/srv/detail/imgservice__struct.hpp:131:10:[m[K [01;31m[Kfatal error: [m[Kcustommsgsrv/msg/detail/polygon__struct.hpp: No such file or directory
+[2.480s]   131 | #include [01;31m[K"custommsgsrv/msg/detail/polygon__struct.hpp"[m[K
+[2.480s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.480s] compilation terminated.
+[2.483s] gmake[2]: *** [CMakeFiles/custommsgsrv__rosidl_typesupport_introspection_cpp.dir/build.make:286: CMakeFiles/custommsgsrv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custommsgsrv/srv/detail/imgservice__type_support.cpp.o] Error 1
+[2.483s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/custommsgsrv__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[2.484s] gmake: *** [Makefile:146: all] Error 2
+[2.488s] Invoked command in '/home/siddhant/mrt_ws/build/custommsgsrv' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/mrt_ws/install/sauron:/home/siddhant/mrt_ws/install/arucoasmt:/opt/ros/humble /usr/bin/cmake --build /home/siddhant/mrt_ws/build/custommsgsrv -- -j4 -l4

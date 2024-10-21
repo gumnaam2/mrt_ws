@@ -1,0 +1,4 @@
+sensor_msgs/Image img
+---
+geometry_msgs/Polygon[] corners
+int64[] ids
