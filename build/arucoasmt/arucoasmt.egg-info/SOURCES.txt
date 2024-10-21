@@ -11,8 +11,8 @@ setup.py
 arucoasmt/__init__.py
 arucoasmt/arucotest.py
 arucoasmt/clitest.py
-arucoasmt/imgclienttest.py
-arucoasmt/processortest.py
+arucoasmt/imgclient.py
+arucoasmt/processor.py
 arucoasmt/pubtest.py
 arucoasmt/srvtest.py
 arucoasmt/subtest.py

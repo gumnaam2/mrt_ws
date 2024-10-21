@@ -9,12 +9,9 @@ import sys
 
 class imgClient(Node):
     def __init__(self):
-        """
-        Class constructor to set up the node
-        """
         super().__init__('imgClient')
         self.cli = self.create_client(
-            srv_name="image_dims",
+            srv_name="imageprocessor",
             srv_type=Imgservice
         )
 
@@ -27,15 +24,30 @@ class imgClient(Node):
         self.br = CvBridge()
 
     def send_req(self):
-        self.address = str(sys.argv[1])
+        self.address = str(sys.argv[1]) #video address
         
-        img = cv2.imread(self.address)
-        self.ros2img = self.br.cv2_to_imgmsg(img)
-
-
-        self.req.img = self.ros2img
+        video_capture = cv2.VideoCapture(self.address)
+        success, frame = video_capture.read()
         
-        self.future = self.cli.call_async(self.req)
+        while success:
+            self.ros2img = self.br.cv2_to_imgmsg(frame)
+            self.req.img = self.ros2img
+            self.future = self.cli.call_async(self.req)
+
+            while rclpy.ok():
+                rclpy.spin_once(self)
+                if self.future.done():
+                    try:
+                        resp = self.future.result()
+                    except Exception as e:
+                        self.get_logger().info("Failed to retrieve response", e)
+                    else:
+                        for corner in resp.corners:
+                            self.get_logger().info(f"Corners: {corner}\nIDs: {resp.ids}")
+                    finally:
+                        break
+            
+            success, frame = video_capture.read()  # Read next frame
 
 def main(args=None):
     rclpy.init(args=args)
@@ -43,19 +55,6 @@ def main(args=None):
     asyncClient = imgClient()
     asyncClient.send_req()
 
-    while rclpy.ok():
-        rclpy.spin_once(asyncClient)
-        if asyncClient.future.done():
-            try:
-                resp = asyncClient.future.result()
-            except Exception as e:
-                asyncClient.get_logger().info("Failed to retrieve response", e)
-            else:
-                for corner in resp.corners:
-                    asyncClient.get_logger().info(f"Corners: {corner}\nIDs: {resp.ids}")
-            finally:
-                break
-    
     asyncClient.destroy_node()
     rclpy.shutdown()
 

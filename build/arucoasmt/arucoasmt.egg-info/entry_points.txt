@@ -1,7 +1,7 @@
 [console_scripts]
 clitest = arucoasmt.clitest:main
-imgclienttest = arucoasmt.imgclienttest:main
-processortest = arucoasmt.processortest:main
+imgclient = arucoasmt.imgclient:main
+processor = arucoasmt.processor:main
 pubtest = arucoasmt.pubtest:main
 srvtest = arucoasmt.srvtest:main
 subtest = arucoasmt.subtest:main

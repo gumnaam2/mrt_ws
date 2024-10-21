@@ -24,8 +24,8 @@ setup(
                 'subtest = arucoasmt.subtest:main',
                 'srvtest = arucoasmt.srvtest:main',
                 'clitest = arucoasmt.clitest:main',
-                'imgclienttest = arucoasmt.imgclienttest:main',
-                'processortest = arucoasmt.processortest:main'
+                'imgclient = arucoasmt.imgclient:main',
+                'processor = arucoasmt.processor:main'
         ],
     },
 )
