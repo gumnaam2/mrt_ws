@@ -1,10 +1,8 @@
 import rclpy # Python library for ROS 2
 from rclpy.node import Node # Handles the creation of nodes
-from sensor_msgs.msg import Image # Image is the message type
 from cv_bridge import CvBridge # Package to convert between ROS and OpenCV Images
 import cv2 # OpenCV library
 from custommsgsrv.srv import Imgservice
-from geometry_msgs.msg import Polygon, Point32
 import sys
 
 class imgClient(Node):
@@ -42,11 +40,14 @@ class imgClient(Node):
                     except Exception as e:
                         self.get_logger().info("Failed to retrieve response", e)
                     else:
-                        for corner in resp.corners:
-                            self.get_logger().info(f"Corners: {corner}\nIDs: {resp.ids}")
+                        self.get_logger().info(f"{len(resp.ids)} IDs found: {resp.ids}")
+                        for i, corner in enumerate(resp.corners):
+                            self.get_logger().info(f"Bounds for ArUco ID {resp.ids[i]}: ")
+                            for pt in corner.points:
+                                self.get_logger().info(f"({pt.x}, {pt.y})")
                     finally:
                         break
-            
+             
             success, frame = video_capture.read()  # Read next frame
 
 def main(args=None):

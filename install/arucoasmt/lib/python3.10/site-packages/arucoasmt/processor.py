@@ -1,12 +1,10 @@
 import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import Image
 from geometry_msgs.msg import Polygon, Point32
 from cv_bridge import CvBridge 
 import cv2
 import cv2.aruco as aruco
 from custommsgsrv.srv import Imgservice
-import sys
 
 class imageProcessor(Node):
     def __init__(self):
@@ -49,6 +47,7 @@ class imageProcessor(Node):
             resp.ids = ids
             resp.corners = polygons
             print(polygons)
+            print(ids)
             self.get_logger().info("Served data successfully")
         return resp
 
